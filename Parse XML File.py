@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import os
 
-MapFileXML = 'Peak Knowledge.xml'
+MapFileXML = 'Peak Knowledge.xml'  ## <----- **** THIS IS WHERE YOU WILL WANT TO USE YOUR MAP'S NAME. *****
 tree = ET.parse(MapFileXML)
 root = tree.getroot()
 
